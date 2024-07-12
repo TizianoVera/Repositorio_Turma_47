@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-image: url(/exercicios/exercicio_modulo_04/img/AdobeStock_234241545_Preview.jpeg);
+  background-size: cover;
+}
+
+#returning_to_home {
+  margin: auto;
+  width: 80%;
+  height: 23.3rem;
+  background-color: white;
+}
+
+.image-frango {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  border: 0.3rem outset #ffb300a1;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+}
+
+.introduction {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction > h1 {
+  height: 11.6875rem;
+  text-align: left;
+  font-size: 5.5625rem;
+  font: normal normal 900 89px/79px Montserrat;
+  letter-spacing: 0px;
+  color: #ffb300;
+  opacity: 1;
+  padding: 0.625rem 0 0 0.625rem;
+}
+
+.introduction > h3 {
+  height: 1.75rem;
+  text-align: right;
+  font: normal normal bold 21px/34px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding-right: 0.625rem;
+}
+
+.parrafo-introduccion {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  font: normal normal 600 21px/34px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-align: left;
+  padding: 15px;
+  gap: 1.25rem;
+}
+
+
+.time{
+    height: 10.125rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5625rem;
+    border-top: 5px solid #999999;
+    border-bottom: 5px solid #999999;
+    opacity: 1;
+}

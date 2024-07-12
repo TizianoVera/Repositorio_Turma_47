@@ -4,66 +4,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Html-portafolio/style/style.css">
+    <link rel="shortcut icon" href="/Html-portafolio/img/21004063.jpg" />
     <title>Tiziano Vera</title>
 </head>
 
 <body>
-    <nav>
-        <h1>Tiziano Vera</h1>
-        <ul>
-            <li>Inicio</li>
-            <li>Sobre min</li>
-            <li>Experiencia</li>
-            <li>contato</li>
-        </ul>
-    </nav>
-    <main>
-        <!--colocar imagem -->
-        <figcaption>
-            <figure>
-                <img src="/Html/img/pngwing.com.png" alt="Muestra" width="300px">
-            </figure>
-        </figcaption>
-        <header>
-            <h1>rotulo principal ou frase</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti reprehenderit asperiores quos at
-                suscipit eum fuga amet sed? Officia ipsam in dolor porro autem vero voluptas nobis deleniti, expedita
-                iste.</p>
-        </header>
 
-        <section>
-            <p>sobre mi</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel maiores placeat dolores optio aliquid
-                necessitatibus amet quia facilis natus accusamus, itaque fuga atque nihil, deserunt possimus soluta
-                deleniti perferendis totam!</p>
+    <header  class="main-menu">
+
+        <picture  class="user-main">
+            <a href="#main-menu"><img src="/Html-portafolio/img/21004063.jpg" alt="user image"></a>
+        </picture>
+        <nav class="navigation-menu">
+            <ul>
+                <li><a href="#user-main">apresentação</a></li>
+                <li><a href="#formação">formação</a></li>
+                <li><a href="#experiencia">experiencia</a></li>
+                <li><a href="#projetos">projetos</a></li>
+                <li><a href="#fale-conmigo">fale conmigo!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <figure id="main-menu" class="Conceito">
+    </figure>
+
+    <main>
+        <section id="user-main" class="user">
+            <div class="image-red">
+                <img src="/Html-portafolio/img/21004063.jpg" alt="user image">
+                <div class="red-user">
+                    <ul>
+                        <a href="https://github.com/TizianoVera" target="_blank">
+                            <li>github</li>
+                        </a>
+                        <a href="https://www.linkedin.com/in/tiziano-vera/" target="_blank">
+                            <li>linkedin</li>
+                        </a>
+                        <a href="https://www.facebook.com/TizianoVeraD" target="_blank">
+                            <li>facebook</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="apresentação" class="apresentação">
+                <h1>tiziano vera</h1>
+                <h2>full-stack developer</h2>
+                <p>
+                    Atualmente faço parte da equipe de soluções técnicas do Google (WebTech), onde é realizada a
+                    configuração das tags GA4 do Google Ads e Analytics para que o cliente possa mensurar corretamente
+                    as ações realizadas pelos usuários do seu site, realizando o acompanhamento de eventos
+                    personalizados e conversões avançadas para ambas as plataformas. Poder fazer configurações
+                    executando códigos ou Tag Manager.
+                </p>
+                <p>
+                    Da mesma forma, posso detectar quando esses eventos são acionados incorretamente, trazendo consigo a
+                    medição incorreta dos dados, da mesma forma que posso reconhecer quando o Modo de consentimento está
+                    incorreto na configuração, pois isso também pode afetar a medição de determinados dados ou impedir
+                    sua captura.
+                </p>
+                   
+                <p>
+                    Na minha pouca experiência aprendi que é necessário ter vontade de aprender e saber reconhecer os
+                    meus erros e fraquezas, por isso é essencial a minha formação constante para que possa desenvolver
+                    as minhas competências técnicas e pessoais.
+                </p>
+            </div>
         </section>
-        <section>
-            experiencia
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores magnam deserunt ipsum explicabo
-                doloremque in ex suscipit eum error, dolor est nesciunt culpa, laboriosam, repudiandae facere.
-                Perspiciatis nobis ducimus sapiente.</p>
+
+
+        <section id="formação" class="formação">
+            <h2>formação</h2>
+            <div class="card-formação">
+                <h4>2011 - 2014</h4>
+                <h3>Instituto de tecnologia Henrique Pittier</h3>
+                <h4>Técnico en relaciones industriales</h4>
+            </div>
         </section>
-        <section>
+
+        <section id="experiencia" class="experiencia">
+            <h2>experiencia</h2>
+            <div class="card-experiencia">
+                <h3>2022 - atualidad</h3>
+                <p>Analista de desenvolvimento de sistemas</p>
+                <h4>cognizant</h4>
+            </div>
+            <div class="card-experiencia">
+                <h3>2021 - 2022</h3>
+                <p>Especialista en relaciones con clientes Bilingue II</p>
+                <h4>Atento</h4>
+            </div>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <h2>projetos</h2>
+            <div class="card-projeto-principal">
+            <div class="card-project">
+                <img src="/Html-portafolio/img/projeto.jpg" alt="Visualização da página da web. Procedimento de protocolo. Fluxo de trabalho de software dinâmico. Desenvolvimento Full Stack, marcação, administrar sistema. Driver para memória compartilhada. Ilustração em vetor conceito metáfora isolado.">
+                <h3>titulo projeto</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis quo et esse delectus enim,
+                    maiores inventore eaque placeat omnis voluptates illum nesciunt consectetur, assumenda sunt
+                    exercitationem accusamus. Illum, amet aperiam.
+                </p>
+                <div class="card-project-buttom">
+                    <ul>
+                        <a href="#" target="_blank" rel="noopener noreferrer"><li>repositorio</li></a>
+                        <a href="#projetos" alt="en produccion"><li>ver demo</li></a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card-project">
+                <img src="/Html-portafolio/img/projeto.jpg" alt="Visualização da página da web. Procedimento de protocolo. Fluxo de trabalho de software dinâmico. Desenvolvimento Full Stack, marcação, administrar sistema. Driver para memória compartilhada. Ilustração em vetor conceito metáfora isolado.">
+                <h3>titulo projeto</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis quo et esse delectus enim,
+                    maiores inventore eaque placeat omnis voluptates illum nesciunt consectetur, assumenda sunt
+                    exercitationem accusamus. Illum, amet aperiam.
+                </p>
+                <div class="card-project-buttom">
+                    <ul>
+                        <a href="#" target="_blank" rel="noopener noreferrer"><li>repositorio</li></a>
+                        <a href="#projetos" alt="en produccion"><li>ver demo</li></a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card-project">
+                <img src="/Html-portafolio/img/projeto.jpg" alt="Visualização da página da web. Procedimento de protocolo. Fluxo de trabalho de software dinâmico. Desenvolvimento Full Stack, marcação, administrar sistema. Driver para memória compartilhada. Ilustração em vetor conceito metáfora isolado.">
+                <h3>titulo projeto</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis quo et esse delectus enim,
+                    maiores inventore eaque placeat omnis voluptates illum nesciunt consectetur, assumenda sunt
+                    exercitationem accusamus. Illum, amet aperiam.
+                </p>
+                <div class="card-project-buttom">
+                    <ul>
+                        <a href="#" target="_blank" rel="noopener noreferrer"><li>repositorio</li></a>
+                        <a href="#projetos" alt="en produccion"><li>ver demo</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section id="fale-conmigo" class="fale-conmigo">
+            <h2>contato</h2>
+            <div class="box-contact">
+                <div class="informação-contato">
+                
+                    <p>
+                        Quer entrar em contato comigo?
+                    </p>
+                    <p>Preencha o formulário ao lado e entrarei em contato o mais
+                        rápido
+                        possível.
+                    </p>
+                    <p>Você também pode me encontrar nas seguintes redes sociais:</p>
+                <div class="red-contact">
+                    <ul>
+                        <a href="https://github.com/TizianoVera" target="_blank"><li>github</li></a>
+                        <a href="https://www.linkedin.com/in/tiziano-vera/" target="_blank"><li>linkedin</li></a>
+                        <a href="https://www.facebook.com/TizianoVeraD" target="_blank"><li>facebook</li></a>
+                    </ul>
+                </div>
+            </div>
+
             <form action="#">
-                <fieldset>
-                    <legend>Para mãis informacões</legend>
                     <label for="fname">Nome:</label>
-                    <input type="text" name="name" id="name" placeholder="Ingresse seu nome">
+                    <input type="text" name="name" id="name">
                     <label for="fmail">Email:</label>
                     <input type="email" name="email" id="email" required
-                        pattern="^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$"
-                        placeholder="Ingresse seu email">
-                    <label for="ftel">Telefone:</label>
-                    <input type="tel" name="tel" id="tel" placeholder="+55 34 567 896 5698">
+                        pattern="^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$">
+                    <label for="fAsunto">assunto:</label>
+                    <input type="text" name="asunto">
+                    <label for="mensagem">mensagem</label>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+
                     <button type="submit">Enviar</button>
-                </fieldset>
             </form>
+        </div>
         </section>
     </main>
-    <footer>
-        <strong>&copy Copyright e direitos reservado</strong>
-        <p>Contato: <a href="mailto:#" target="_blank">tizianod@google.com</a></p>
-    </footer>
 </body>
 
 </html>

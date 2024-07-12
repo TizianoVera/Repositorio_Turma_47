@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Peralta&family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Peralta&family=Vast+Shadow&display=swap');
+:root{
+    --titulo-nombre: "Peralta", serif;
+    --titulo-menu: "Montagu Slab", serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main-menu{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color:#09203fcc  ;
+    font-family: var(--titulo-menu);
+    letter-spacing: 2px;
+    -webkit-box-shadow: -2px 10px 15px -9px #000000; 
+    box-shadow: -2px 10px 15px -9px #000000;
+}
+
+.user-main{
+    width: 5rem;
+}
+
+.user-main > a > img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+a{
+
+    color: rgb(255, 255, 255);
+}
+
+.navigation-menu > ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: rgb(0, 73, 104);
+}
+
+
+.Conceito{
+    margin: auto;
+    width: 100%;
+    height: 40rem;
+    background-image: url(/Html-portafolio/img/2149311914.jpg);
+    background-size: cover;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 31px 22px -1px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.user{
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(297deg, rgba(8, 112, 156, 0.849) 3%, #010920 77%); 
+    border-top: 2px solid #09203fcc ;
+    color: #ffffffcc;
+}
+
+.image-red{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-red > img{
+    max-width: 30%;
+    border-radius: 50%;
+}
+
+
+.red-user >ul{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    gap: 1rem;
+    
+}
+
+.red-user > ul >a{
+    width: 3rem;
+    height: 3rem;
+    background: linear-gradient(295deg, rgba(8, 112, 156, 0.849) -15%, #010920 72%); 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.apresentação{
+    width: 50%;
+    padding: 5%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: justify;
+    overflow: hidden;
+}
+
+
+.apresentação >h1{
+    font-family: var(--titulo-nombre);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.formação{
+    height: 22.0625rem;
+    background: rgb(0, 73, 104);
+    background: linear-gradient(285deg, rgba(8, 112, 156, 0.849) 8%, #010920 87%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 30%;
+}
+
+.formação > h2 , 
+.experiencia >h2 {
+    font-family: var(--titulo-nombre);
+    text-transform: uppercase;
+    margin: 1.5rem;
+    letter-spacing: 2px;
+    color: #ffffffcc;
+}
+
+.card-formação{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    gap: 0.5rem;
+    padding-left: 1.375rem;
+    border-left: #ffffffcc 0.625rem solid;
+    border-radius: 6%;
+    text-transform:capitalize;
+    color: #ffffffcc;
+}
+
+
+.experiencia{
+    height: 22.0625rem;
+    background: rgb(0, 73, 104);
+    background: linear-gradient(249deg, rgba(8, 112, 156, 0.849) 9%, #010920 84%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-top: 4.375rem;
+}
+
+.card-experiencia{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    gap: 0.5rem;
+    padding-left: 1.375rem;
+    border-left: #ffffffcc 0.625rem solid;
+    border-radius: 6%;
+    text-transform:capitalize;
+    color: #ffffffcc;
+}
+
+
+.projetos{
+    min-width: 100%;
+    min-height: 35rem;
+    background: rgb(0, 73, 104);
+    background: linear-gradient(263deg, rgba(8, 112, 156, 0.849) 2%, #010920 79%);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+    color: #ffffffcc;
+}
+
+.projetos > h2{
+    font-family: var(--titulo-nombre);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffffcc;
+    padding-left: 30%;
+    margin-top: 4rem;
+}
+
+
+.card-projeto-principal{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 1rem;
+}
+
+.card-project{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1%;
+    padding: 2rem;
+    gap: 0.8rem;
+    width: 20rem;
+    background-color:#09203fcc  ;
+    -webkit-box-shadow: -2px 10px 15px -9px #000000; 
+    box-shadow: -2px 10px 15px -9px #000000;
+    box-sizing: content-box;
+}
+
+.card-project>img{
+    max-width: 10rem;
+    max-height: 10rem;
+    border-radius: 1%;
+    margin: auto;
+}
+
+.card-project>h3{
+    font-family: var(--titulo-menu);
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+
+.card-project> p{
+    font-family: var(--titulo-menu);
+    font-size: 13px;
+    text-align: justify;
+}
+
+.card-project-buttom > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5px;
+}
+
+.card-project-buttom > ul> a{
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    border: #000000 2px solid;
+    padding: 7px;
+    border-radius: 8%;
+    text-transform: capitalize;
+    background: linear-gradient(295deg, rgba(8, 112, 156, 0.849) 20%, #010920 130%); 
+}
+
+.fale-conmigo{
+    width: 100%;
+    height: 30rem;
+    background: linear-gradient(261deg, rgba(8, 112, 156, 0.849) -3%, #010920 75%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:2rem 23rem 2rem 23rem;
+    gap: 1rem;
+}
+
+
+.box-contact{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.fale-conmigo>h2{
+    font-family: var(--titulo-nombre);
+    padding-left: 15%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffffcc;
+}
+
+.informação-contato{
+    width: 24.875rem;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #ffffffcc;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+
+.red-contact{
+    max-width: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.red-contact >ul{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    gap: 1rem;
+    
+}
+
+
+.red-contact > ul > a{
+    width: 3rem;
+    height: 3rem;
+    background-color: #22648E; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    -webkit-box-shadow: 0px 4px 7px -1px #f5f5fb; 
+    box-shadow: 0px 4px 7px -1px #f5f5fb;
+}
+
+form{
+    width: 24.875rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    color: #ffffffcc;
+    text-align: left;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+form > input{
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+
+
+}
+
+form > input:focus {
+    border-style: none;
+}
+
+form > input:active {
+    border-style: none;
+}
+
+
+textarea{
+    resize: none;
+    height: 8rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+button{
+    width: 10rem;
+    margin: auto;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-style: none;
+}
+
