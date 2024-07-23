@@ -101,51 +101,9 @@
         <section id="projetos" class="projetos">
             <h2>projetos</h2>
             <div class="card-projeto-principal">
-            <div class="card-project">
-                <img src="/Html-portafolio/img/projeto.jpg" alt="Visualização da página da web. Procedimento de protocolo. Fluxo de trabalho de software dinâmico. Desenvolvimento Full Stack, marcação, administrar sistema. Driver para memória compartilhada. Ilustração em vetor conceito metáfora isolado.">
-                <h3>titulo projeto</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis quo et esse delectus enim,
-                    maiores inventore eaque placeat omnis voluptates illum nesciunt consectetur, assumenda sunt
-                    exercitationem accusamus. Illum, amet aperiam.
-                </p>
-                <div class="card-project-buttom">
-                    <ul>
-                        <a href="#" target="_blank" rel="noopener noreferrer"><li>repositorio</li></a>
-                        <a href="#projetos" alt="en produccion"><li>ver demo</li></a>
-                    </ul>
-                </div>
-            </div>
+            
 
-            <div class="card-project">
-                <img src="/Html-portafolio/img/projeto.jpg" alt="Visualização da página da web. Procedimento de protocolo. Fluxo de trabalho de software dinâmico. Desenvolvimento Full Stack, marcação, administrar sistema. Driver para memória compartilhada. Ilustração em vetor conceito metáfora isolado.">
-                <h3>titulo projeto</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis quo et esse delectus enim,
-                    maiores inventore eaque placeat omnis voluptates illum nesciunt consectetur, assumenda sunt
-                    exercitationem accusamus. Illum, amet aperiam.
-                </p>
-                <div class="card-project-buttom">
-                    <ul>
-                        <a href="#" target="_blank" rel="noopener noreferrer"><li>repositorio</li></a>
-                        <a href="#projetos" alt="en produccion"><li>ver demo</li></a>
-                    </ul>
-                </div>
             </div>
-
-            <div class="card-project">
-                <img src="/Html-portafolio/img/projeto.jpg" alt="Visualização da página da web. Procedimento de protocolo. Fluxo de trabalho de software dinâmico. Desenvolvimento Full Stack, marcação, administrar sistema. Driver para memória compartilhada. Ilustração em vetor conceito metáfora isolado.">
-                <h3>titulo projeto</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis quo et esse delectus enim,
-                    maiores inventore eaque placeat omnis voluptates illum nesciunt consectetur, assumenda sunt
-                    exercitationem accusamus. Illum, amet aperiam.
-                </p>
-                <div class="card-project-buttom">
-                    <ul>
-                        <a href="#" target="_blank" rel="noopener noreferrer"><li>repositorio</li></a>
-                        <a href="#projetos" alt="en produccion"><li>ver demo</li></a>
-                    </ul>
-                </div>
-            </div>
-        </div>
         </section>
 
         <section id="fale-conmigo" class="fale-conmigo">
@@ -170,22 +128,24 @@
                 </div>
             </div>
 
-            <form action="#">
+            <form action="#" method="post">
                     <label for="fname">Nome:</label>
                     <input type="text" name="name" id="name">
                     <label for="fmail">Email:</label>
-                    <input type="email" name="email" id="email" required
-                        pattern="^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$">
+                    <input type="email" name="email" id="email" placeholder=" Seu-email@domain.com (campo obrigatório)">
                     <label for="fAsunto">assunto:</label>
-                    <input type="text" name="asunto">
+                    <input type="text" name="assunto" placeholder="campo obrigatório">
                     <label for="mensagem">mensagem</label>
-                    <textarea name="mensagem" id="mensagem"></textarea>
-
-                    <button type="submit">Enviar</button>
+                    <textarea name="mensagem" id="mensagem" placeholder="campo obrigatório"></textarea>
+                    <p class="mensaje-envio error-dato"></p>
+                    <button type="submit" class="btm-submit" onclick="envio()">Enviar</button>
             </form>
         </div>
         </section>
     </main>
+    <script src="/Html-portafolio/script.js"></script>
+    <script src="/Html-portafolio/api_git.js"></script>
+
 </body>
 
 </html>
