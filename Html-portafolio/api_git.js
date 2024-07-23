@@ -8,7 +8,6 @@ function getApiGitHub(){
 
         let data = await res.json();
         data.map(item =>{
-            console.log(data)
             let projectCard = document.createElement('div');
             projectCard.innerHTML = `
             

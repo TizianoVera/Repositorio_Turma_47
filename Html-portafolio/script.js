@@ -27,7 +27,11 @@ function envio(){
 
             setInterval(function(){
                 mensajeEnvio.textContent = '';
-            }, 2000);
+            }, 1000);
+
+            setInterval(function(){
+                formL.reset();
+            }, 900);
             
         } else {
             errorDato.textContent = `Por favor verificar os dados ingressados`;
@@ -35,6 +39,9 @@ function envio(){
                 errorDato.textContent = ''; 
             }, 10000);
         }
-        formL.reset();
+        
     })
+
 }
+
+
